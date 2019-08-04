@@ -13,7 +13,13 @@ def unannotated_library_function() -> int:
   return sometimes_returns_a_string(return_string=False)
 
 
-
+def foo() -> int:
+  return "string"
+def foo() -> int:
+  return "string"
+def foo() -> int:
+  return a.undefined
+  
 
 
 
